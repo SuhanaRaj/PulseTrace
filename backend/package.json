@@ -1,0 +1,26 @@
+{
+  "name": "pulsetrace-backend",
+  "version": "1.0.0",
+  "description": "PulseTrace Express API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node scripts/seed.js",
+    "migrate:projects": "node scripts/migrate-projects.js",
+    "demo:trace": "node scripts/demo-trace.js",
+    "test:logic": "node --test --experimental-test-module-mocks \"test/*.test.js\"",
+    "test:api": "bash scripts/api-test.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "morgan": "^1.10.0",
+    "mongoose": "^8.18.0"
+  }
+}

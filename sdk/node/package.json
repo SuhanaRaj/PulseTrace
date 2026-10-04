@@ -1,0 +1,21 @@
+{
+  "name": "@pulsetrace/node",
+  "version": "0.2.0",
+  "description": "PulseTrace SDK for Node.js backends (Express first). Zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "files": [
+    "src"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  },
+  "license": "ISC",
+  "private": true
+}
